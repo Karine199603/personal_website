@@ -1,0 +1,85 @@
+.navi {
+    color: #190104;
+    font-size: 22px;
+    font-family: 'Exo 2', Arial, sans-serif;
+
+}
+
+
+.navi-button {
+    background-color: transparent;
+    color: #190104;
+    font-size: 22px;
+    font-family: 'Exo 2', Arial, sans-serif;
+    font-weight: 600;
+    border: none;
+    padding: 10px 10px;
+
+}
+
+.navi-button-lan {
+    background-color: transparent;
+    color: #190104;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Exo 2', Arial, sans-serif;
+    border: none;
+    padding: 10px 10px;
+}
+.navi-button-lan.active {
+    color: #927579;
+}
+
+.contact-btn {
+    background-color: transparent;
+    color: #190104;
+    font-size: 40px;
+    font-family: 'Exo 2', Arial, sans-serif;
+    font-weight: 600;
+    border-color: #190104;
+    border-width: 6px;
+    border-radius: 35px 35px 35px 0px;
+    border-style: solid;
+    padding: 10px 20px;
+}
+
+.Kari199603
+{
+    background-color: #FFF6F0;
+}
+
+h1 {
+    color: #190104;
+    font-size: 60px;
+    font-family: 'Exo 2', Arial, sans-serif;
+
+}
+h2 {
+    color: #190104;
+    font-size: 52px;
+    font-family: 'Exo 2', Arial, sans-serif;
+}
+
+
+p{
+    color: #190104;
+    font-size: 22px;
+    font-family: 'Exo 2', Arial, sans-serif;
+}
+
+.text-5xl{
+    color: #190104;
+    font-size: 30px;
+    font-family: 'Exo 2', Arial, sans-serif;
+}
+.text-2xl{
+    color: #190104;
+    font-size: 32px;
+    font-family: 'Exo 2', Arial, sans-serif;
+}
+.text-1xl{
+    color: #190104;
+    font-size: 22px;
+    font-family: 'Exo 2', Arial, sans-serif;
+}
+
