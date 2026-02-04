@@ -6,6 +6,7 @@
 }
 
 
+/* buttons */
 .navi-button {
     background-color: transparent;
     color: #190104;
@@ -16,7 +17,6 @@
     padding: 10px 10px;
 
 }
-
 .navi-button-lan {
     background-color: transparent;
     color: #190104;
@@ -29,7 +29,6 @@
 .navi-button-lan.active {
     color: #927579;
 }
-
 .contact-btn {
     background-color: transparent;
     color: #190104;
@@ -43,11 +42,15 @@
     padding: 10px 20px;
 }
 
+
+/* section */
 .Kari199603
 {
     background-color: #FFF6F0;
 }
 
+
+/* headers */
 h1 {
     color: #190104;
     font-size: 60px;
@@ -61,12 +64,7 @@ h2 {
 }
 
 
-p{
-    color: #190104;
-    font-size: 22px;
-    font-family: 'Exo 2', Arial, sans-serif;
-}
-
+/* text */
 .text-5xl{
     color: #190104;
     font-size: 30px;
@@ -82,4 +80,13 @@ p{
     font-size: 22px;
     font-family: 'Exo 2', Arial, sans-serif;
 }
+
+
+/* other elements */
+p{
+    color: #190104;
+    font-size: 22px;
+    font-family: 'Exo 2', Arial, sans-serif;
+}
+
 
