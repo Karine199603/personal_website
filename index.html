@@ -5,35 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="/">Kari199603</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contacts</a>
-            <a href="/">En</a>
-            <a href="/">Ru</a>
+        <nav class="navi">
+            <a href="/">
+                <button class = "navi-button">Kari199603</button>
+            </a>
+            <a href="#Skills">
+                <button class = "navi-button">Skills</button>
+            </a>
+            <a href="#Projects">
+                <button class = "navi-button">Projects</button>
+            </a>
+            <a href="#Footer">
+                <button class = "navi-button">Contacts</button>
+            </a>
+            <a href="/">
+                <button class = "navi-button-lan active">En</button>
+            </a>
+            <a href="/">
+                <button class = "navi-button-lan">Ru</button>
+            </a>
+        </nav>
     </header>
 <main>
 
-    <section class = "About me">
-        <h1 class = "text-5xl">Testing websites and apps with a keen eye for functionality, usability, and quality</h1>
+    <section class="Kari199603">
+        <h1>Testing websites and apps with a keen eye for functionality, usability, and quality</h1>
         <div>
             <p>I always carry my bucket of perfectionism</p>
-            <img src="https://static.tildacdn.info/tild3834-6364-4166-b336-353530356236/kitty.svg" wight = "59" height = "39">
+            <img src="https://static.tildacdn.info/tild3834-6364-4166-b336-353530356236/kitty.svg" alt="Unicorn cat illustration" wight = "59" height = "39">
         </div>
         <p>Minasian Karine, QA Engineer | UX/UI designer</p>
-        <button>Contact me</button>
+        <button class="contact-btn">Contact me</button>
     </section>
 
-    <section class = "My skills">
+    <section class="Skills">
         <h2>My skills</h2>
-        <div class = "block-text">
-            <div class = "text-2xl font-bold">AI</div> 
-            <div class = "text-1xl">Crea, Recraft, ChatGPT</div> 
+        <div class="block-text">
+            <div class="text-2xl font-bold">AI</div> 
+            <div class="text-1xl">Crea, Recraft, ChatGPT</div> 
         </div> 
         <div class = "block-text">
             <div class = "text-2xl font-bold">Languages</div> 
@@ -45,110 +59,34 @@
             <div class = "text-2xl font-bold">Testing</div> 
             <div class = "text-1xl">Testing Theory</div> 
             <div class = "text-1xl">Manual Testing</div>
-            <div class = "text-xl">Functional, Compatibility Testing, UI/UX Testing, Regression Testing, Smoke Testing, Localization Testing, Exploratory Testing</div>
+            <div class = "text-1xl">Functional, Compatibility Testing, UI/UX Testing, Regression Testing, Smoke Testing, Localization Testing, Exploratory Testing</div>
             <div class = "text-1xl">Documentation</div>
-            <div class = "text-xl">Test Strategy, Test Cases, Checklists, Bug Reports</div>
+            <div class = "text-1xl">Test Strategy, Test Cases, Checklists, Bug Reports</div>
             <div class = "text-1xl">Instruments</div>
-            <div class = "text-xl">TeamCity, Fork, Git, GitHub, Jira, Unity, VS Code, Figma</div>
+            <div class = "text-1xl">TeamCity, Fork, Git, GitHub, Jira, Unity, VS Code, Figma</div>
+        </div>
+        <div class="block-text">
+            <div class="text-2xl font-bold">basic-coding-knowledge</div> 
+            <div class="text-1xl">Python, SQL, DevTools, HTML, CSS, JSON, RegExp</div> 
+            <img src="https://static.tildacdn.info/tild6265-3934-4637-a466-366465383732/Programming.svg" alt="Code icon" wight = "118" height = "118">
         </div>
         <div class = "block-text">
-            <div class = "text-2xl font-bold">basic-coding-knowledge</div> 
-            <div class = "text-1xl">Python, SQL, DevTools, HTML, CSS, JSON, RegExp</div> 
-            <img src="https://static.tildacdn.info/tild6265-3934-4637-a466-366465383732/Programming.svg" wight = "118" height = "118">
-        </div>
-        <div class = "block-text">
-            <div class = "text-2xl font-bold">Soft Skills</div> 
-            <div class = "text-1xl">Empathy, Adaptability, Curiosity, Communication, Attention to Detail</div> 
-            <img src="https://static.tildacdn.info/tild3435-3439-4935-b134-333162663562/face.svg" wight = "118" height = "52">
+            <div class="text-2xl font-bold">Soft Skills</div> 
+            <div class="text-1xl">Empathy, Adaptability, Curiosity, Communication, Attention to Detail</div> 
+            <img src="https://static.tildacdn.info/tild3435-3439-4935-b134-333162663562/face.svg" alt="Enthusiast face icon" wight = "118" height = "52">
         </div>
             
 
-    <section class = "Projects">
+    <section class="Projects">
         <h2>Projects</h2>
     </section>
 
 </main>
 
-<footer>
+<footer id="Footer">
     <p>Footer</p>
 </footer>
 
 </body>
 
 </html>
-
-
-<!--
-    Строчные элементы HTML:
-    a - гиперссылка
-    abbr - аббревиатура
-    acronym -  акроним
-    button - кнопка
-    code - фрагмент кода
-    dfn - определение термина
-    cite - цитирование
-    q - короткая цитата
-    span - контейнер для текста
-    b - жирный текст
-    bdo - переопределение направления текста
-    em - выделение текста
-    big - увеличенный текст
-    small - уменьшенный текст
-    tt - моноширинный текст
-    br - перенос строки
-    i - курсив
-    s - зачеркнутый текст
-    strike - зачеркнутый текст
-    strong - выделение текста
-    sub - нижний индекс
-    sup - верхний индекс
-    img - изображение
-    input - поле ввода
-    kbd - ввод с клавиатуры
-    label - метка для элемента формы
-    map -  карта
-    object - встроенный объект
-    samp - пример вывода программы
-    script - скрипт
-    select - выпадающий список
-    textarea - многострочное текстовое поле
-    time - временная метка
-    ме - эмейл
-    var - переменная
--->   
-
-<!--
-    Блочные элементы HTML: 
-    address - контактная инфа 
-    article - содержание статьи, например, один пост в блоге
-    section - раздел документа, больше подходит для группирования одной части страницы с одной функциональностью
-    aside - побочное содержание, не имеет отношения к основному контенту страницы, например, биография автора статьи или реклама
-    blockquote - длинная блочная цитата
-    details - раскрывающийся блок с подробностями
-    dialogue - диалоговое окно
-    dd - описание определения
-    div - фрагмент документа
-    dl - список определений 
-    dt - термин в списке определений
-    table (en-US) - таблица
-    ul - неупорядоченный список
-    ol - упорядоченный список
-    p - абзац текста
-    pre - предварительно отформатированный текст
-    filedset - группирование элементов формы
-    figcaption - описание для тега <figure>
-    figure - группирование медиа-контента с подписью
-    form - форма для ввода данных
-    h1, h2, h3, h4, h5, h6 - заголовки разного уровня
-    header - верхняя часть, "шапка" страницы/раздела. 
-        дочерний элемент body — содержит навигацию по сайту или логотип
-        дочерний элемент section или article — содержит заголовок этого раздела
-    hggroup - группировка заголовков раздела или страницы
-    hr - горизонтальная разделительная линия
-    li - пункт списка
-    main - содержит основной контент, уникальный для страницы. находится внутри body
-    nav - содержит навигационные ссылки. часто можно увидеть логотип или название сайта/компании
-    footer - нижний колонтитул, группа конечного контента для страницы 
-        дочерний элемент body — содержит информацию об авторских правах, ссылки на политику конфиденциальности и контакты
-        дочерний элемент section или article — содержит информацию об авторе этого раздела
--->
