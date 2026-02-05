@@ -1,38 +1,62 @@
-.navi {
-    color: #190104;
-    font-size: 22px;
-    font-family: 'Exo 2', Arial, sans-serif;
-
+html{
+    font-size : 10px
 }
+
+
+/* header */
+.sticky-top {
+    position: sticky;
+    top: 1rem;
+    padding: 1.5rem 1.4rem 1.5rem 1.4rem;
+    border-radius: 1.5rem;
+    background-color: #FFF6F0;
+}
+
+
+/* navi */
+.navi{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
 
 
 /* buttons */
 .navi-button {
     background-color: transparent;
     color: #190104;
-    font-size: 22px;
+    text-align: center;
+    font-size: 2.2rem;
     font-family: 'Exo 2', Arial, sans-serif;
     font-weight: 600;
     border: none;
-    padding: 10px 10px;
-
+    padding: 1rem 0.15rem;
+    text-decoration-line: none;
 }
 .navi-button-lan {
     background-color: transparent;
     color: #190104;
-    font-size: 22px;
+    text-align: center;
+    font-size: 2.2rem;
     font-weight: 600;
     font-family: 'Exo 2', Arial, sans-serif;
     border: none;
-    padding: 10px 10px;
+    padding: 0.15rem 1rem;
+    text-decoration-line: none;
+    border-left: 1px solid #190104;
+    border-right: none
 }
 .navi-button-lan.active {
     color: #927579;
+    border-right: 1px solid #190104;
+    border-left: none
 }
 .contact-btn {
     background-color: transparent;
     color: #190104;
-    font-size: 40px;
+    text-align: center;
+    font-size: 4.0rem;
     font-family: 'Exo 2', Arial, sans-serif;
     font-weight: 600;
     border-color: #190104;
@@ -44,7 +68,7 @@
 
 
 /* section */
-.Kari199603
+.kari199603
 {
     background-color: #FFF6F0;
 }
@@ -53,13 +77,13 @@
 /* headers */
 h1 {
     color: #190104;
-    font-size: 60px;
+    font-size: 6.0rem;
     font-family: 'Exo 2', Arial, sans-serif;
 
 }
 h2 {
     color: #190104;
-    font-size: 52px;
+    font-size: 5.2rem;
     font-family: 'Exo 2', Arial, sans-serif;
 }
 
@@ -67,25 +91,59 @@ h2 {
 /* text */
 .text-5xl{
     color: #190104;
-    font-size: 30px;
+    font-size: 3.0rem;
     font-family: 'Exo 2', Arial, sans-serif;
 }
-.text-2xl{
+.text-1xl-bold{
     color: #190104;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: 'Exo 2', Arial, sans-serif;
+    font-weight: bold;
 }
 .text-1xl{
     color: #190104;
-    font-size: 22px;
+    font-size: 3.2rem;
+    font-family: 'Exo 2', Arial, sans-serif;
+}
+.text-0xl{
+    color: #190104;
+    font-size: 1.8rem;
     font-family: 'Exo 2', Arial, sans-serif;
 }
 
+
+/* block-text-AI */
+.block-text-ai {
+    background-color: #cee1fe;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+.block-text-languages {
+    background-color: #ecf2fc;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+.block-text-testing{
+    background-color: #ffefe6;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+.block-text-basic_coding_knowledge {
+    background-color: #242f3d;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    color: #ffffff;
+}
+.block-text-soft_skills {
+    background-color: #ffeec1;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
 
 /* other elements */
 p{
     color: #190104;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-family: 'Exo 2', Arial, sans-serif;
 }
 
