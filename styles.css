@@ -1,9 +1,12 @@
-html{
-    font-size : 10px
+html {
+    font-size : 10px;
+    font-family: 'Exo 2', Arial, sans-serif;
+    color: #190104;
 }
 
 
 /* header */
+
 .sticky-top {
     position: sticky;
     top: 1rem;
@@ -14,6 +17,7 @@ html{
 
 
 /* navi */
+
 .navi{
     display: flex;
     justify-content: center;
@@ -21,44 +25,64 @@ html{
 }
 
 
+/* section */
+
+.kari199603
+{
+    background-color: #FFF6F0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;   
+}
+
+/* headers */
+
+h1 {
+    font-size: 6.0rem;
+
+}
+h2 {
+    font-size: 5.2rem;
+}
+
+
+/* div */
+
+div {
+    font-size: 3.2rem;
+}
+
 
 /* buttons */
+
 .navi-button {
     background-color: transparent;
     color: #190104;
     text-align: center;
     font-size: 2.2rem;
-    font-family: 'Exo 2', Arial, sans-serif;
     font-weight: 600;
     border: none;
     padding: 1rem 0.15rem;
     text-decoration-line: none;
 }
+
 .navi-button-lan {
-    background-color: transparent;
-    color: #190104;
-    text-align: center;
-    font-size: 2.2rem;
-    font-weight: 600;
-    font-family: 'Exo 2', Arial, sans-serif;
-    border: none;
     padding: 0.15rem 1rem;
-    text-decoration-line: none;
-    border-left: 1px solid #190104;
+    border-left: 0.3rem solid;
     border-right: none
 }
+
 .navi-button-lan.active {
     color: #927579;
-    border-right: 1px solid #190104;
+    border-right: 0.3rem solid;
     border-left: none
 }
+
 .contact-btn {
-    background-color: transparent;
-    color: #190104;
-    text-align: center;
     font-size: 4.0rem;
-    font-family: 'Exo 2', Arial, sans-serif;
-    font-weight: 600;
     border-color: #190104;
     border-width: 6px;
     border-radius: 35px 35px 35px 0px;
@@ -67,84 +91,63 @@ html{
 }
 
 
-/* section */
-.kari199603
-{
-    background-color: #FFF6F0;
-}
-
-
-/* headers */
-h1 {
-    color: #190104;
-    font-size: 6.0rem;
-    font-family: 'Exo 2', Arial, sans-serif;
-
-}
-h2 {
-    color: #190104;
-    font-size: 5.2rem;
-    font-family: 'Exo 2', Arial, sans-serif;
-}
-
-
 /* text */
-.text-5xl{
-    color: #190104;
-    font-size: 3.0rem;
-    font-family: 'Exo 2', Arial, sans-serif;
-}
-.text-1xl-bold{
-    color: #190104;
-    font-size: 3.2rem;
-    font-family: 'Exo 2', Arial, sans-serif;
+
+.bold{
     font-weight: bold;
 }
-.text-1xl{
-    color: #190104;
-    font-size: 3.2rem;
-    font-family: 'Exo 2', Arial, sans-serif;
-}
+
 .text-0xl{
-    color: #190104;
     font-size: 1.8rem;
-    font-family: 'Exo 2', Arial, sans-serif;
 }
 
 
-/* block-text-AI */
-.block-text-ai {
+/* block-text */
+
+.block {
+    border-radius: 3rem;
+    padding: 2.5rem 3rem 2.5rem 3rem;
+}
+
+.block.ai {
     background-color: #cee1fe;
-    border-radius: 1.5rem;
-    padding: 1.5rem;
 }
-.block-text-languages {
+
+.block.languages {
     background-color: #ecf2fc;
-    border-radius: 1.5rem;
-    padding: 1.5rem;
 }
-.block-text-testing{
+
+.block.testing{
     background-color: #ffefe6;
-    border-radius: 1.5rem;
-    padding: 1.5rem;
 }
-.block-text-basic_coding_knowledge {
+
+.block.basic_coding_knowledge {
     background-color: #242f3d;
-    border-radius: 1.5rem;
-    padding: 1.5rem;
     color: #ffffff;
 }
-.block-text-soft_skills {
+
+.block.soft_skills {
     background-color: #ffeec1;
-    border-radius: 1.5rem;
-    padding: 1.5rem;
+}
+
+.block-title {
+    margin-bottom: 1rem;
+}
+
+.block-description + .block-description {
+    margin-top: 0.8rem;
+}
+
+.block-note + .block-description {
+    margin-top: 1rem;
+}
+
+.block-description + .block-note {
+    margin-top: 0.6rem;
 }
 
 /* other elements */
-p{
-    color: #190104;
+
+p {
     font-size: 2.2rem;
-    font-family: 'Exo 2', Arial, sans-serif;
 }
-
-
