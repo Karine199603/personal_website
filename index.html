@@ -1,85 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./normalize.css">
+        <link rel="stylesheet" href="./index.css">
+        <title>Document</title>
+    </head>
 
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-
-
-<body>
-
-    <header class="sticky-top">
-        <a class="navi-button" href="/">Kari199603</a>
-        <nav class="navi">
-            <a class="navi-button" href="#skills">Skills</a>
-            <a class="navi-button" href="#projects">Projects</a>
-            <a class="navi-button" href="#contacts">Contacts</a>
-            <a class="navi-button" href="#about">About</a>
-        </nav>
-        <a class="navi-button navi-button-lan active" href="/">En</a>
-        <a class="navi-button navi-button-lan" href="/">Ru</a>
-    </header>
-
-<main>
-
-    <section class="kari199603">
-        <h1>Testing websites and apps with a keen eye for functionality, usability, and quality</h1>
-        <div>
-            <p>I always carry my bucket of perfectionism</p>
-            <img src="./assets/images/unicorn_cat.svg" alt="Unicorn cat illustration" wight = "59" height = "39">
-        </div>
-        <p>Minasian Karine, QA Engineer | UX/UI designer</p>
-        <button class="navi-button contact-btn">Contact me</button>
-    </section>
-
-    <section class="skills">
-        <h2>My skills</h2>
-        <div class="block ai">
-            <div class="bold block-title">AI</div> 
-            <div class="block-description">Crea, Recraft, ChatGPT</div> 
-        </div> 
-        <div class="block languages">
-            <div class="bold block-title">Languages</div> 
-            <div class="text-1xl block-description">English — Intermediate, B1</div> 
-            <div class="text-1xl block-description">German — Upper-Intermediate, B2</div>
-            <div class="text-1xl block-description">Russian — Proficiency, C2</div>
-        </div> 
-        <div class = "block testing">
-            <div class="bold in-div-pad-head block-title">Testing</div> 
-            <div class="block-description">Testing Theory</div> 
-            <div class="block-description">Manual Testing</div>
-            <div class="block-note text-0xl">Functional, Compatibility, UX, Regression, Smoke, Localization, Exploratory</div>
-            <div class="block-description">Documentation</div>
-            <div class="block-note text-0xl ">Test Strategy, Test Cases, Checklists, Bug Reports</div>
-            <div class="block-description">Instruments</div>
-            <div class="block-note text-0xl ">TeamCity, Fork, Git, GitHub, Jira, Unity, VS Code, Figma</div>
-        </div>
-        <div class="block basic_coding_knowledge ">
-            <div class="bold block-title">basic-coding-knowledge</div> 
-            <div class="block-description">Python, SQL, DevTools, HTML, CSS, JSON, RegExp</div> 
-            <img src="./assets/images/code.svg" alt="Code icon" wight = "118" height = "118">
-        </div>
-        <div class= "block soft_skills">
-            <div class="bold block-title">Soft Skills</div> 
-            <div class="block-description">Empathy, Adaptability, Curiosity, Communication, Attention to Detail</div> 
-            <img src="./assets/images/enthusiast_face.svg" alt="Enthusiast face icon" wight = "118" height = "52">
-        </div>
-    </section>       
-
-    <section class="projects">
-        <h2>Projects</h2>
-    </section>
-
-</main>
-
-<footer id="footer">
-    <p>Footer</p>
-</footer>
-
-</body>
-
+    <body>
+        <div class="page">
+            <header class="sticky-top">
+                <a class="navi-button" href="/">Kari199603</a>
+                <nav class="navi">
+                    <a class="navi-button" href="#skills">Skills</a>
+                    <a class="navi-button" href="#projects">Projects</a>
+                    <a class="navi-button" href="#contacts">Contacts</a>
+                    <a class="navi-button" href="#about">About</a>
+                </nav>
+                <a class="navi-button navi-button-lan active" href="/">En</a>
+                <a class="navi-button navi-button-lan" href="/">Ru</a>
+            </header>
+            <main>
+                <section class="kari199603">
+                    <h1>Testing websites and apps with a keen eye for functionality, usability, and quality</h1>
+                    <div>
+                        <p>I always carry my bucket of perfectionism</p>
+                        <img 
+                        src="./assets/images/unicorn_cat.svg" 
+                        alt="Unicorn cat illustration" 
+                        width="59" 
+                        height="39"
+                        />
+                    </div>
+                    <p>Minasian Karine, QA Engineer | UX/UI designer</p>
+                    <button class="navi-button contact-btn">Contact me</button>
+                </section>
+                <section class="skills">
+                    <h2>My skills</h2>
+                    <div class="block ai">
+                        <div class="bold block-title">AI</div> 
+                        <div class="block-description">
+                            Crea, Recraft, ChatGPT
+                        </div> 
+                    </div> 
+                    <div class="block languages">
+                        <div class="bold block-title">Languages</div> 
+                        <div class="text-1xl block-description">English — Intermediate, B1</div> 
+                        <div class="text-1xl block-description">German — Upper-Intermediate, B2</div>
+                        <div class="text-1xl block-description">Russian — Proficiency, C2</div>
+                    </div> 
+                    <div class = "block testing">
+                        <div class="bold in-div-pad-head block-title">Testing</div> 
+                        <div class="block-description">Testing Theory</div> 
+                        <div class="block-description">Manual Testing</div>
+                        <div class="block-note text-0xl">
+                            Functional, Compatibility, UX, Regression, Smoke, Localization, Exploratory
+                        </div>
+                        <div class="block-description">Documentation</div>
+                        <div class="block-note text-0xl ">
+                            Test Strategy, Test Cases, Checklists, Bug Reports
+                        </div>
+                        <div class="block-description">Instruments</div>
+                        <div class="block-note text-0xl ">
+                            TeamCity, Fork, Git, GitHub, Jira, Unity, VS Code, Figma
+                        </div>
+                    </div>
+                    <div class="block basic_coding_knowledge">
+                        <div class="bold block-title">basicCodingKnowledge</div> 
+                        <div class="block-description">
+                            JavaScript, Python, SQL, DevTools, HTML, CSS, JSON, RegExp
+                        </div> 
+                        <img 
+                        src="./assets/images/code.svg" 
+                        alt="Code icon" 
+                        width="118" 
+                        height="118"
+                        />
+                    </div>
+                    <div class= "block soft_skills">
+                        <div class="bold block-title">Soft Skills</div> 
+                        <div class="block-description">
+                            Empathy, Adaptability, Curiosity, Communication, Attention to Detail
+                        </div> 
+                        <img 
+                        src="./assets/images/enthusiast_face.svg" 
+                        alt="Enthusiast face icon" 
+                        width="118" 
+                        height="52"
+                        />
+                    </div>
+                </section>       
+                <section class="projects">
+                    <h2>Projects</h2>
+                </section>
+            </main>
+            <footer id="footer">
+                <p>Footer</p>
+            </footer>
+    </div>
+    </body>
 </html>
